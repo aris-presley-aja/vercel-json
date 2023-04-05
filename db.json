@@ -1,9 +1,2061 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "tabel_absensi":[
+   {
+    "id_absensi": 1,
+    "id_mahasiswa": 33,
+    "sakit": 0,
+    "ijin": 0,
+    "alpa": 0,
+    "jumlah": 0,
+    "id_status_mahasiswa": 7,
+    "id_semester": 7
+   },
+   {
+    "id_absensi": 2,
+    "id_mahasiswa": 54,
+    "sakit": 0,
+    "ijin": 6,
+    "alpa": 0,
+    "jumlah": 6,
+    "id_status_mahasiswa": 7,
+    "id_semester": 7
+   },
+   {
+    "id_absensi": 3,
+    "id_mahasiswa": 38,
+    "sakit": 4,
+    "ijin": 2,
+    "alpa": 0,
+    "jumlah": 6,
+    "id_status_mahasiswa": 7,
+    "id_semester": 7
+   },
+   {
+    "id_absensi": 4,
+    "id_mahasiswa": 41,
+    "sakit": 0,
+    "ijin": 0,
+    "alpa": 22,
+    "jumlah": 22,
+    "id_status_mahasiswa": 1,
+    "id_semester": 7
+   },
+   {
+    "id_absensi": 5,
+    "id_mahasiswa": 48,
+    "sakit": 0,
+    "ijin": 0,
+    "alpa": 0,
+    "jumlah": 0,
+    "id_status_mahasiswa": 7,
+    "id_semester": 7
+   },
+   {
+    "id_absensi": 6,
+    "id_mahasiswa": 46,
+    "sakit": 0,
+    "ijin": 0,
+    "alpa": 0,
+    "jumlah": 0,
+    "id_status_mahasiswa": 7,
+    "id_semester": 7
+   }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "tabel_admin":[
+   {
+    "id_admin": 3,
+    "nama": "Vipkas",
+    "nip": 12345,
+    "id_user": 32,
+    "waktu_edit": "04\/01\/2019"
+   },
+   {
+    "id_admin": 4,
+    "nama": "Adan",
+    "nip": 123,
+    "id_user": 45,
+    "waktu_edit": "04\/23\/2019"
+   }
   ],
-  "profile": { "name": "typicode" }
-}
+  "tabel_attachment":[
+   {
+    "id_attachment": 1,
+    "tipe": "gambar",
+    "file": "yan.png",
+    "id_info": 1
+   },
+   {
+    "id_attachment": 2,
+    "tipe": "gambar",
+    "file": "yuri.png",
+    "id_info": 1
+   },
+   {
+    "id_attachment": 3,
+    "tipe": "gambar",
+    "file": "ariadi.png",
+    "id_info": 2
+   },
+   {
+    "id_attachment": 4,
+    "tipe": "gambar",
+    "file": "atiqah.png",
+    "id_info": 2
+   },
+   {
+    "id_attachment": 5,
+    "tipe": "gambar",
+    "file": "ridwan.png",
+    "id_info": 2
+   }
+  ],
+  "tabel_chat":[
+   {
+    "id_chat": 1,
+    "isi": "Assalamualaikum Wr.Wb",
+    "pengirim": 2,
+    "penerima": 32,
+    "waktu": "04\/11\/2019"
+   },
+   {
+    "id_chat": 2,
+    "isi": "Waalaikumsalam Wr.Wb",
+    "pengirim": 32,
+    "penerima": 2,
+    "waktu": "04\/12\/2019"
+   },
+   {
+    "id_chat": 3,
+    "isi": "min, kemarin kan kelas saya ada di LBD.01, waktu kelas saya disana stopkontaknya kok belum ada listriknya ya ",
+    "pengirim": 2,
+    "penerima": 32,
+    "waktu": "04\/12\/2019"
+   },
+   {
+    "id_chat": 4,
+    "isi": "Untuk masalah listrik yang ada di ruangan memang belum kami pasangi listrik semua mbak. soalnya OB nya lagi males untuk mengerjakannya",
+    "pengirim": 32,
+    "penerima": 2,
+    "waktu": "04\/13\/2019"
+   },
+   {
+    "id_chat": 5,
+    "isi": "Baik Min terimakasih :)",
+    "pengirim": 2,
+    "penerima": 32,
+    "waktu": "04\/13\/2019"
+   },
+   {
+    "id_chat": 6,
+    "isi": "Sama sama",
+    "pengirim": 32,
+    "penerima": 2,
+    "waktu": "04\/21\/2019"
+   },
+   {
+    "id_chat": 7,
+    "isi": "P",
+    "pengirim": 32,
+    "penerima": 45,
+    "waktu": "04\/21\/2019"
+   },
+   {
+    "id_chat": 8,
+    "isi": "He!",
+    "pengirim": 32,
+    "penerima": 45,
+    "waktu": "04\/22\/2019"
+   },
+   {
+    "id_chat": 9,
+    "isi": "Opo?",
+    "pengirim": 45,
+    "penerima": 32,
+    "waktu": "04\/23\/2019"
+   },
+   {
+    "id_chat": 10,
+    "isi": "Ngapain?",
+    "pengirim": 32,
+    "penerima": 45,
+    "waktu": "04\/23\/2019"
+   },
+   {
+    "id_chat": 11,
+    "isi": "Nganggur",
+    "pengirim": 45,
+    "penerima": 32,
+    "waktu": "04\/23\/2019"
+   },
+   {
+    "id_chat": 12,
+    "isi": "Bagi dulur-dulur di jawatimur yang mau masuk ke Malang atau mau keluar Malang, disarankan untuk tidak berangkat di hari jumat. Dikarenakan hari jumat tanggal 12 April 2019 Malang raya punya agenda besar  1. Final piala presiden 2019 Arema vs Persebaya 2. Final piala presiden di hadiri RI 1 Joko Widodo 3. Kampanye terbuka Capres 02 Prabowo-Sandi 4. Konvoi Besar Aremania se-Malang Raya  Dan di sarankan untuk dulur-dulur yang memiliki kendaraan dengan Plat Nomor L (surabaya) dan W (sidoarjo) untuk tidak nekat masuk wilayah Malang raya di hari tersebut (atas saran dari POLRI) demi keselamatan dulur semua. Terimakasih dan monggo di bantu share untuk kenyamanan masyarakat jawatimur bersama.",
+    "pengirim": 32,
+    "penerima": 45,
+    "waktu": "04\/23\/2019"
+   },
+   {
+    "id_chat": 13,
+    "isi": "Ikut bro",
+    "pengirim": 32,
+    "penerima": 45,
+    "waktu": "04\/23\/2019"
+   },
+   {
+    "id_chat": 14,
+    "isi": "Makasih",
+    "pengirim": 45,
+    "penerima": 32,
+    "waktu": "04\/23\/2019"
+   },
+   {
+    "id_chat": 15,
+    "isi": "tes",
+    "pengirim": 32,
+    "penerima": 45,
+    "waktu": "04\/26\/2019"
+   },
+   {
+    "id_chat": 16,
+    "isi": "tes",
+    "pengirim": 32,
+    "penerima": 2,
+    "waktu": "04\/26\/2019"
+   },
+   {
+    "id_chat": 17,
+    "isi": "Apa Min?",
+    "pengirim": 2,
+    "penerima": 45,
+    "waktu": "05\/13\/2019"
+   },
+   {
+    "id_chat": 18,
+    "isi": "Oke",
+    "pengirim": 32,
+    "penerima": 2,
+    "waktu": "05\/15\/2019"
+   }
+  ],
+  "tabel_dosen":[
+   {
+    "id_dosen": 4,
+    "nip": "198603182012121001",
+    "nama": "Ridwan Rismanto,SST.,M.KOM",
+    "alamat": "Perum Bunul Asri B-20 Malang",
+    "jenis_kelamin": "laki-laki",
+    "id_user": 31,
+    "waktu_tambah": "08\/16\/2017",
+    "waktu_edit": "04\/01\/2019"
+   },
+   {
+    "id_dosen": 5,
+    "nip": "196201051990031002",
+    "nama": "Budi Harijanto, ST., MMkom",
+    "alamat": "Perum Giri Palma KAV.113 Malang",
+    "jenis_kelamin": "laki-laki",
+    "id_user": 33,
+    "waktu_tambah": "05\/13\/2017",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_dosen": 6,
+    "nip": "198108102005012002",
+    "nama": "Ariadi Retno Tri Hayati Ririd, S.Kom., M.Kom",
+    "alamat": "Jl. Semolo Waru Elok Blok F\/38 Malang",
+    "jenis_kelamin": "perempuan",
+    "id_user": 34,
+    "waktu_tambah": "05\/13\/2017",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_dosen": 7,
+    "nip": "197704242008121001",
+    "nama": "Gunawan Budi Prasetyo, ST., MMT",
+    "alamat": "Bekasi",
+    "jenis_kelamin": "laki-laki",
+    "id_user": 35,
+    "waktu_tambah": "05\/13\/2016",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_dosen": 8,
+    "nip": "198007162010121002",
+    "nama": "Yuri Ariyanto, S.Kom., M.Kom",
+    "alamat": "Jl. Ahila 2 9B\/39 Sawojajar 2 Malang",
+    "jenis_kelamin": "laki-laki",
+    "id_user": 36,
+    "waktu_tambah": "05\/13\/2016",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_dosen": 9,
+    "nip": "197606252005012001",
+    "nama": "Atiqah Nurul Asri, S.Pd., M.Pd",
+    "alamat": "Jl. Ade Irma Suryani IIIA\/332 Malang",
+    "jenis_kelamin": "perempuan",
+    "id_user": 37,
+    "waktu_tambah": "05\/13\/2016",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_dosen": 10,
+    "nip": "198406102008121004",
+    "nama": "Imam Fahrur Rozi, ST., MT",
+    "alamat": "Suko Timur Malang",
+    "jenis_kelamin": "laki-laki",
+    "id_user": 38,
+    "waktu_tambah": "05\/13\/2018",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_dosen": 11,
+    "nip": "197111101999031002",
+    "nama": "Rudy Ariyanto, ST, M.Cs",
+    "jenis_kelamin": "laki-laki",
+    "id_user": 39,
+    "waktu_tambah": "05\/13\/2018",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_dosen": 12,
+    "nip": "198103182010122002",
+    "nama": "Widaningsih, S.Psi, SH., MH",
+    "jenis_kelamin": "perempuan",
+    "id_user": 40,
+    "waktu_tambah": "05\/13\/2018",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_dosen": 13,
+    "nip": "198101052005011005",
+    "nama": "Yan Watequlis Syaifudin, ST., MMT",
+    "jenis_kelamin": "laki-laki",
+    "id_user": 41,
+    "waktu_tambah": "05\/13\/2018",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_dosen": 14,
+    "nip": "197305102008011010",
+    "nama": "Indra Dharma Wijaya, ST., MMT",
+    "alamat": "Jl. Mayjen Panjaitan 7 RT.4 RW.1 Malang Perum Graha Pelita Asrikatan C-19 Asri",
+    "jenis_kelamin": "laki-laki",
+    "id_user": 42,
+    "waktu_tambah": "05\/13\/2019",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_dosen": 15,
+    "nip": "197903132008121002",
+    "nama": "Arief Prasetyo, S.Kom., M.Kom",
+    "alamat": "Permata Jingga Blok Sawo No.11 Malang",
+    "jenis_kelamin": "laki-laki",
+    "id_user": 43,
+    "waktu_tambah": "05\/13\/2019",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_dosen": 16,
+    "nip": "198108092010121002",
+    "nama": "Banni Satria Andoko, S.Kom., MMSI.",
+    "alamat": "Sulfat Rivera Residence RI No.7 Malang",
+    "jenis_kelamin": "laki-laki",
+    "id_user": 44,
+    "waktu_tambah": "05\/13\/2019",
+    "waktu_edit": "04\/09\/2019"
+   }
+  ],
+  "tabel_info":[
+   {
+    "id_info": 1,
+    "judul": "2 Dosen dikirim ke Jepang",
+    "isi": "Dikarenakan dosen bernama : rn- Pak Yan rn- Pak Rosa rn- Pak Vipkas rnsedang di tugaskan ke jepang maka kelas yang diajar oleh dosen-dosen tersebut diharap segera menghubungi untuk meminta tugas. rnrnTerima Kasih...",
+    "tipe": "pengumuman",
+    "waktu_publish": "04\/11\/2019",
+    "waktu_perubahan": "0000-00-00 00:00:00"
+   },
+   {
+    "id_info": 2,
+    "judul": "Workshop Pembuatan Dokumen Kurikulum Oleh 3 Dosen",
+    "isi": "Pada hari Selasa, 29 Januari 2019 Jurusan Teknologi Informasi (JTI) menggelar kegiatan Workshop Pembuatan Dokumen Kurikulum yang diikuti oleh seluruh dosen JTI. Acara ini diadakan di Ruang Meeting Dosen Sipil Lantai 4, Politeknik Negeri Malang.rnrnWorkshop ini menghadirkan pembicara dari Universitas Negeri Malang, Dr. Ir. Syaâ€™ad Patmanthara, M.Pd. Tujuan dari diadakannya workshop ini adalah para dosen dapat membuat Rencana Perkuliahan Semester (RPS),  kontrak perkuliahan dan rubik penilaian untuk semester genap tahun ajaran 2018-2019 dengan lebih baik. Acara yang berlangsung dari pukul 08.00 â€“ 16.00 WIB berlangsung tertib dan lancar.",
+    "tipe": "berita",
+    "waktu_publish": "04\/11\/2019",
+    "waktu_perubahan": "0000-00-00 00:00:00"
+   },
+   {
+    "id_info": 3,
+    "judul": "Pengumuman Laporan Akhir dan Skripsi 2018\/2019",
+    "isi": "1. Pendaftaran untuk usulan dosen pembimbing sudah dibukarn2. Pendaftaran usulan dosen pembimbing berakhir pada tanggal 26 November 2018 pukul 11.00rn3. Pengumuman dosen pembimbing dilaksanakan antara tanggal 27-29 November 2018rn4. Pendaftaran sidang proposal dan upload proposal dilaksanakan tanggal 29 November-3 Desember 2018rn5. Ujian proposal dilaksanakan mulai tanggal 4 Desember 2018",
+    "tipe": "pengumuman",
+    "waktu_publish": "04\/11\/2019",
+    "waktu_perubahan": "0000-00-00 00:00:00"
+   },
+   {
+    "id_info": 4,
+    "judul": "PSS (Pelaksanaan Sertifikasi Sektor) thn. 2018 untuk Mahasiswa Jurusan TI",
+    "isi": "PSS merupakan program hibah dari BNSP untuk melakukan sertifikasi kompetensi terhadap mahasiswa. Dan pada tahun 2018 ini, Polinema melalui LSP P1 Polinema, mendapatkan program tersebut dan sebagai tindak lanjutnya wajib melakukan sertifikasi terhadap mahasiswa Polinema. Berkenaan dengan hal tersebut, jurusan TI mendapatkan kuota mahasiswa sejumlah 340 orang untuk diikutkan program PSS tersebut.",
+    "tipe": "berita",
+    "waktu_publish": "04\/11\/2019",
+    "waktu_perubahan": "0000-00-00 00:00:00"
+   },
+   {
+    "id_info": 5,
+    "judul": "Update Pembimbing Proposal LA",
+    "isi": "Setelah melalui berbagai pertimbangan dan koreksi oleh panitia, maka update terbaru Pembimbing Proposal LA sebagai berikut:",
+    "tipe": "pengumuman",
+    "waktu_publish": "04\/11\/2019",
+    "waktu_perubahan": "0000-00-00 00:00:00"
+   }
+  ],
+  "tabel_info_beasiswa":[
+   {
+    "id_beasiswa": 1,
+    "judul": "Pendaftaran Beasiswa 2019",
+    "isi": "Kepada Seluruh mahasiswa Politenik Negeri Malang untuk Jenjang D# maupun D4, diberitahukan dibuka pendaftaran beasiswa : rn1. Beasiswa PPA rn2. Beasiswa BBP ( BBM) rn3. Beasiswa Supersemar Pendaftaran mulai rnrntanggal : 17 Maret s.d 4 April 2019 pendaftaran lewat ONLINE ( download di : http:\/\/ beasiswa.polinema.ac.id) untuk keterangan lebih lanjut dapat dilihat spanduk yang ada sekitar politeknik atau di poster pada tiap-tiap jurusan . Terima kasih atas perhatiannya",
+    "waktu_publish": "03\/17\/2019",
+    "waktu_berakhir": "04\/04\/2019"
+   }
+  ],
+  "tabel_jadwal":[
+   {
+    "id_jadwal": 5,
+    "id_ruang": 1,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "id_dosen": 8,
+    "id_matkul": 1,
+    "hari": "Senin",
+    "jam_mulai": "04\/05\/2023",
+    "jam_selesai": "04\/05\/2023",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_jadwal": 6,
+    "id_ruang": 2,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "id_dosen": 6,
+    "id_matkul": 2,
+    "hari": "Senin",
+    "jam_mulai": "04\/05\/2023",
+    "jam_selesai": "04\/05\/2023",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_jadwal": 7,
+    "id_ruang": 4,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "id_dosen": 5,
+    "id_matkul": 3,
+    "hari": "Rabu",
+    "jam_mulai": "04\/05\/2023",
+    "jam_selesai": "04\/05\/2023",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_jadwal": 8,
+    "id_ruang": 2,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "id_dosen": 5,
+    "id_matkul": 4,
+    "hari": "Kamis",
+    "jam_mulai": "04\/05\/2023",
+    "jam_selesai": "04\/05\/2023",
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_jadwal": 9,
+    "id_ruang": 5,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "id_dosen": 7,
+    "id_matkul": 6,
+    "hari": "Jumat",
+    "jam_mulai": "04\/05\/2023",
+    "jam_selesai": "04\/05\/2023",
+    "waktu_edit": "04\/09\/2019"
+   }
+  ],
+  "tabel_kelas":[
+   {
+    "id_kelas": 4,
+    "kode_kelas": "F",
+    "id_prodi": 3,
+    "tingkat": 2
+   },
+   {
+    "id_kelas": 5,
+    "kode_kelas": "A",
+    "id_prodi": 3,
+    "tingkat": 2
+   },
+   {
+    "id_kelas": 6,
+    "kode_kelas": "A",
+    "id_prodi": 4,
+    "tingkat": 2
+   },
+   {
+    "id_kelas": 7,
+    "kode_kelas": "B",
+    "id_prodi": 3,
+    "tingkat": 2
+   },
+   {
+    "id_kelas": 8,
+    "kode_kelas": "B",
+    "id_prodi": 4,
+    "tingkat": 2
+   },
+   {
+    "id_kelas": 9,
+    "kode_kelas": "C",
+    "id_prodi": 3,
+    "tingkat": 2
+   },
+   {
+    "id_kelas": 10,
+    "kode_kelas": "C",
+    "id_prodi": 4,
+    "tingkat": 2
+   }
+  ],
+  "tabel_khs":[
+   {
+    "id_khs": 1,
+    "id_mahasiswa": 33,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "id_matkul": 1,
+    "nilai": 90,
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_khs": 2,
+    "id_mahasiswa": 33,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "id_matkul": 2,
+    "nilai": 80,
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_khs": 3,
+    "id_mahasiswa": 33,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "id_matkul": 4,
+    "nilai": 70,
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_khs": 4,
+    "id_mahasiswa": 33,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "id_matkul": 6,
+    "nilai": 75,
+    "waktu_edit": "04\/09\/2019"
+   },
+   {
+    "id_khs": 5,
+    "id_mahasiswa": 33,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "id_matkul": 3,
+    "nilai": 80,
+    "waktu_edit": "04\/09\/2019"
+   }
+  ],
+  "tabel_komentar":[
+   {
+    "id_komentar": 1,
+    "id_info": 1,
+    "id_user": 3,
+    "isi": "Terimakasih infonyaa",
+    "waktu": "04\/11\/2019"
+   },
+   {
+    "id_komentar": 2,
+    "id_info": 1,
+    "id_user": 15,
+    "isi": "Yeyy asikkk",
+    "waktu": "04\/11\/2019"
+   },
+   {
+    "id_komentar": 3,
+    "id_info": 3,
+    "id_user": 28,
+    "isi": "Semangat kakak kakak skripsinya",
+    "waktu": "04\/11\/2019"
+   },
+   {
+    "id_komentar": 4,
+    "id_info": 1,
+    "id_user": 20,
+    "isi": "Siap min ",
+    "waktu": "04\/11\/2019"
+   },
+   {
+    "id_komentar": 5,
+    "id_info": 3,
+    "id_user": 9,
+    "isi": "Skripsi Skripsi",
+    "waktu": "04\/11\/2019"
+   }
+  ],
+  "tabel_kompen":[
+   {
+    "id_kompen": 5,
+    "id_mahasiswa": 41,
+    "id_dosen": 8,
+    "id_semester": 7,
+    "jumlah_jam": 10,
+    "waktu": "04\/11\/2019",
+    "id_pekerjaan_kompen": 5,
+    "waktu_verifikasi": "04\/14\/2019",
+    "status_verifikasi": "sudah terverifikasi"
+   }
+  ],
+  "tabel_krs":[
+   {
+    "id_krs": 1,
+    "id_mahasiswa": 33,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 7,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/03\/2019"
+   },
+   {
+    "id_krs": 2,
+    "id_mahasiswa": 34,
+    "status_daftar_ulang": "Belum",
+    "id_semester": 7,
+    "status_verifikasi": "Belum",
+    "waktu_edit": "05\/03\/2019"
+   },
+   {
+    "id_krs": 3,
+    "id_mahasiswa": 35,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 7,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/03\/2019"
+   },
+   {
+    "id_krs": 4,
+    "id_mahasiswa": 36,
+    "status_daftar_ulang": "Belum",
+    "id_semester": 7,
+    "status_verifikasi": "Belum",
+    "waktu_edit": "05\/03\/2019"
+   },
+   {
+    "id_krs": 5,
+    "id_mahasiswa": 37,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 7,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/03\/2019"
+   },
+   {
+    "id_krs": 6,
+    "id_mahasiswa": 38,
+    "status_daftar_ulang": "Belum",
+    "id_semester": 7,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/03\/2019"
+   },
+   {
+    "id_krs": 7,
+    "id_mahasiswa": 39,
+    "status_daftar_ulang": "Sudah",
+    "id_semester": 7,
+    "status_verifikasi": "Belum",
+    "waktu_edit": "05\/03\/2019"
+   },
+   {
+    "id_krs": 8,
+    "id_mahasiswa": 40,
+    "status_daftar_ulang": "Belum",
+    "id_semester": 7,
+    "status_verifikasi": "Belum",
+    "waktu_edit": "05\/03\/2019"
+   },
+   {
+    "id_krs": 9,
+    "id_mahasiswa": 41,
+    "status_daftar_ulang": "Sudah",
+    "id_semester": 7,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/03\/2019"
+   },
+   {
+    "id_krs": 10,
+    "id_mahasiswa": 42,
+    "status_daftar_ulang": "Sudah",
+    "id_semester": 7,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/03\/2019"
+   },
+   {
+    "id_krs": 11,
+    "id_mahasiswa": 43,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 4,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 12,
+    "id_mahasiswa": 44,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 4,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 13,
+    "id_mahasiswa": 45,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 4,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 14,
+    "id_mahasiswa": 46,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 4,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 15,
+    "id_mahasiswa": 47,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 4,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 16,
+    "id_mahasiswa": 48,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 4,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 17,
+    "id_mahasiswa": 49,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 5,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 18,
+    "id_mahasiswa": 50,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 5,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 19,
+    "id_mahasiswa": 51,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 5,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 20,
+    "id_mahasiswa": 52,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 5,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 21,
+    "id_mahasiswa": 53,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 5,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 22,
+    "id_mahasiswa": 54,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 5,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 23,
+    "id_mahasiswa": 55,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 6,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 24,
+    "id_mahasiswa": 56,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 6,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 25,
+    "id_mahasiswa": 57,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 6,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 26,
+    "id_mahasiswa": 58,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 6,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 27,
+    "id_mahasiswa": 59,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 6,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 28,
+    "id_mahasiswa": 60,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 6,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   },
+   {
+    "id_krs": 29,
+    "id_mahasiswa": 61,
+    "status_daftar_ulang": "Sudah",
+    "gambar_krs": "krs1.png",
+    "id_semester": 6,
+    "status_verifikasi": "Sudah",
+    "waktu_edit": "05\/14\/2019"
+   }
+  ],
+  "tabel_kuisioner":[
+   {
+    "id_kuisioner": 1,
+    "kriteria": "Dosen menjelaskan rencana perkuliahan",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 2,
+    "kriteria": "Dosen menyerahkan kontrak perkuliahan di awal semester",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 3,
+    "kriteria": "Dosen menjelaskan tujuan dan manfaat kuliah \/ praktikum\trn",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 4,
+    "kriteria": "Dosen memberikan buku ajar \/ jobsheet \/ modul praktikum\trn",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 5,
+    "kriteria": "Buku ajar \/ jobsheet \/modul praktikum yang diberikan sangat membantu dalam memahami perkuliahan",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 6,
+    "kriteria": "Dosen mengajarkan kuliah \/ praktikum yang bersangkutan sesuai rencana pengajaran\trn",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 7,
+    "kriteria": "Dosen selalu menggunakan media pembelajaran seperti LCD \/ alat peraga \/ software \/ lainnya\trn",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 8,
+    "kriteria": "Dosen menggunakan buku rujukan atau penunjang (textbook) untuk mata kuliah \/ praktikumrn",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 9,
+    "kriteria": "Dosen memberikan materi mata kuliah sesuai dengan kurikulum dan silabus yang berlaku",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 10,
+    "kriteria": "Dosen dapat membangkitkan minat mahasiswa pada pokok materi mata kuliah \/ praktikum\trn",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 11,
+    "kriteria": "Pada saat mengajar dosen memberi kuliah dengan jelas dan mudah dimengerti\trn",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 12,
+    "kriteria": "Dosen memberi kesempatan bagi mahasiswa untuk bertanya\trn",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 13,
+    "kriteria": "Dosen memberikan tanggapan yang memuaskan terhadap pertanyaan yang diajukan mahasiswa\trn",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 14,
+    "kriteria": "Dosen yang bersangkutan memberi kesempatan untuk berkonsultasi di luar jam mengajar",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 15,
+    "kriteria": "Dosen menjelaskan sistem evaluasi untuk mata kuliah \/ praktikum pada awal perkuliahan\trn",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 16,
+    "kriteria": "Dosen memberi penilaian secara obyektif terhadap evaluasi yang dilakukan\trn",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 17,
+    "kriteria": "Dosen menjelaskan hasil ujian yang telah dilakukan mahasiswa\trn",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 18,
+    "kriteria": "Dosen memberi kesempatan untuk memperbaiki nilai ujian\trn",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 19,
+    "kriteria": "Dosen selalu hadir dan menyampaikan materi dalam setiap perkuliahan\trn",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 20,
+    "kriteria": "Dosen selalu memulai dan mengakhiri perkuliahan secara tepat waktu",
+    "status_aktif": "ya"
+   },
+   {
+    "id_kuisioner": 21,
+    "kriteria": "Perkuliahan sesuai dengan kontrak kuliah yang sudah disepakai sebelumnya",
+    "status_aktif": "ya"
+   }
+  ],
+  "tabel_mahasiswa":[
+   {
+    "id_mahasiswa": 33,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720144",
+    "nama": "Abdallah Darussalam Candra",
+    "alamat": "Perum Graha Kota Asri Blok D-1 No. 9 Jl. Muharto V",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Sumenep",
+    "tanggal_lahir": "10\/30\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 2,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 34,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720008",
+    "nama": "Adn Maulidya Handah Putri",
+    "alamat": "Jl. Klampok No. 97-A",
+    "jenis_kelamin": "perempuan",
+    "tempat_lahir": "Malang",
+    "tanggal_lahir": "06\/25\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 3,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 35,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720040",
+    "nama": "Aldihamda Sulthon Fuad Prajakusuma",
+    "alamat": "Jl. Jatirejo",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Trenggalek",
+    "tanggal_lahir": "06\/26\/1998",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 4,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 36,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720043",
+    "nama": "Amin Anis Kuddah",
+    "alamat": "Jl. Segara 186",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Pamekasan",
+    "tanggal_lahir": "09\/27\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 5,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 37,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720086",
+    "nama": "Chintya Puspa Dewi",
+    "alamat": "Dsn. Dadapan",
+    "jenis_kelamin": "perempuan",
+    "tempat_lahir": "Malang",
+    "tanggal_lahir": "05\/27\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 6,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 38,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720053",
+    "nama": "Dimas Shella Charlinawati",
+    "alamat": "Dsn. Dander",
+    "jenis_kelamin": "perempuan",
+    "tempat_lahir": "Jember",
+    "tanggal_lahir": "07\/04\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 7,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 39,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720054",
+    "nama": "Ermi Pristiyaningrum",
+    "alamat": "Dsn. Banca'an",
+    "jenis_kelamin": "perempuan",
+    "tempat_lahir": "Tulungagung",
+    "tanggal_lahir": "12\/06\/1998",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 8,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 40,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720045",
+    "nama": "Fardhan Ardhi Ramadhan",
+    "alamat": "Jl. Titas Asri X Blok H No. 12",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Malang",
+    "tanggal_lahir": "01\/16\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 9,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 41,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720026",
+    "nama": "Galang Yudha Pratama",
+    "alamat": "Perum Joyo Grand Blok A No. 8",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Malang",
+    "tanggal_lahir": "10\/27\/1998",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 10,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 42,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720088",
+    "nama": "Greggy Gianini Firmansyah",
+    "alamat": "Jl. Gading No. 38",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Malang",
+    "tanggal_lahir": "03\/22\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 11,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 43,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720192",
+    "nama": "Hafizh Dias Ramadhan",
+    "alamat": "Perum Bumi Mondoroko Raya AC-9",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Malang",
+    "tanggal_lahir": "01\/13\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 12,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 44,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720058",
+    "nama": "Haryo Bagus Setyawan",
+    "alamat": "Jl. Ksatrian Dalam No. 15-A",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Medan",
+    "tanggal_lahir": "08\/31\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 13,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 45,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720032",
+    "nama": "Hesti Anisa Reski",
+    "alamat": "Jl. Gang TengaH No. 41",
+    "jenis_kelamin": "perempuan",
+    "tempat_lahir": "Malang",
+    "tanggal_lahir": "12\/19\/1998",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 14,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 46,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720018",
+    "nama": "Ika Puspa Fairuz Wiwanata",
+    "alamat": "Jl. Kesatrian No. 6",
+    "jenis_kelamin": "perempuan",
+    "tempat_lahir": "Surakarta",
+    "tanggal_lahir": "08\/21\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 15,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 47,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720011",
+    "nama": "Ilham Nuswantoro Aji",
+    "alamat": "Jl. Kh. Achmad Dahlan 11 No.65",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Pasuruan",
+    "tanggal_lahir": "04\/10\/2000",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 16,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 48,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720027",
+    "nama": "Leni Saputri",
+    "alamat": "Suwayuwo Kulon Embong RT.01 RW.03",
+    "jenis_kelamin": "perempuan",
+    "tempat_lahir": "Pasuruan",
+    "tanggal_lahir": "07\/09\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 17,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 49,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720031",
+    "nama": "Muhammad Aliyul Murtadlo",
+    "alamat": "Dsn. Kedawong",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Jombang",
+    "tanggal_lahir": "06\/04\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 18,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 50,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720114",
+    "nama": "Okta Chandika Salsabila",
+    "alamat": "Jl. Ahmad Yani No.191",
+    "jenis_kelamin": "perempuan",
+    "tempat_lahir": "Malang",
+    "tanggal_lahir": "10\/20\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 19,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 51,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720049",
+    "nama": "Panji Awwaludi Dzikriawan",
+    "alamat": "Dsn. Bebe'an Lor",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Pasuruan",
+    "tanggal_lahir": "04\/30\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 20,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 52,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720061",
+    "nama": "Rahardhiyan Wahyu Putra",
+    "alamat": "Dsn. Sambiroto",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Sidoarjo",
+    "tanggal_lahir": "06\/06\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 21,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 53,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720112",
+    "nama": "Reffan Pandu Amirulloh",
+    "alamat": "Sukarsid",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Malang",
+    "tanggal_lahir": "11\/13\/1998",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 22,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 54,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720160",
+    "nama": "Reza Ariestya Putra",
+    "alamat": "Jl. Katu No. 6",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Jakarta",
+    "tanggal_lahir": "04\/19\/1998",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 23,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 55,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720111",
+    "nama": "Septa Kusumaningtyas",
+    "alamat": "Jl. Sumber Bangun D-76",
+    "jenis_kelamin": "perempuan",
+    "tempat_lahir": "Malang",
+    "tanggal_lahir": "09\/07\/1998",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 24,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 56,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720196",
+    "nama": "Septian Caesar Floresko",
+    "alamat": "Perum Sekarsari Indah B-28",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Manggarai",
+    "tanggal_lahir": "09\/09\/1998",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 25,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 57,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720158",
+    "nama": "Sulthan Rafif",
+    "alamat": "Jl. Gondosuli No.2",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Malang",
+    "tanggal_lahir": "09\/05\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 26,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 58,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720081",
+    "nama": "Syahdanny Alhamda",
+    "alamat": "Jl. Raya Slamet Wiroto",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Malang",
+    "tanggal_lahir": "10\/11\/1998",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 27,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 59,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720203",
+    "nama": "Vian Satria Maulana Navalino",
+    "alamat": "Perum Arjuna Gumilang A-3",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Jakarta",
+    "tanggal_lahir": "06\/29\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 28,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 60,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720076",
+    "nama": "Vicko Handika Nanda Firdiansyah",
+    "alamat": "Jl. Panjaitan No. 1",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Malang",
+    "tanggal_lahir": "07\/14\/1998",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 29,
+    "waktu_tambah": "05\/13\/2017"
+   },
+   {
+    "id_mahasiswa": 61,
+    "id_prodi": 3,
+    "id_kelas": 4,
+    "id_semester": 7,
+    "nim": "1741720036",
+    "nama": "Wiji Prabowo",
+    "alamat": "Dsn. Tlogosari",
+    "jenis_kelamin": "laki-laki",
+    "tempat_lahir": "Pasuruan ",
+    "tanggal_lahir": "10\/04\/1999",
+    "waktu_edit": "04\/04\/2019",
+    "id_user": 30,
+    "waktu_tambah": "05\/13\/2017"
+   }
+  ],
+  "tabel_matkul":[
+   {
+    "id_matkul": 1,
+    "nama": "Manajemen Proyek",
+    "sks": 2,
+    "jam": 4
+   },
+   {
+    "id_matkul": 2,
+    "nama": "Analisis Dan Desain Berorientasi Objek",
+    "sks": 3,
+    "jam": 6
+   },
+   {
+    "id_matkul": 3,
+    "nama": "Sistem Manajemen Basisdata",
+    "sks": 3,
+    "jam": 6
+   },
+   {
+    "id_matkul": 4,
+    "nama": "Proyek 1",
+    "sks": 3,
+    "jam": 8
+   },
+   {
+    "id_matkul": 5,
+    "nama": "Komputasi Kognitif",
+    "sks": 2,
+    "jam": 4
+   },
+   {
+    "id_matkul": 6,
+    "nama": "Sistem Informasi",
+    "sks": 2,
+    "jam": 4
+   },
+   {
+    "id_matkul": 7,
+    "nama": "Pemrograman Web Lanjut",
+    "sks": 3,
+    "jam": 6
+   }
+  ],
+  "tabel_notifikasi":[
+   {
+    "id_notifikasi": 1,
+    "isi": "Anda telah mengganti foto profil",
+    "waktu": "05\/13\/2019",
+    "status_dibaca": "sudah",
+    "id_user": 2
+   },
+   {
+    "id_notifikasi": 2,
+    "isi": "Anda telah mengganti password",
+    "waktu": "05\/13\/2019",
+    "status_dibaca": "sudah",
+    "id_user": 2
+   },
+   {
+    "id_notifikasi": 3,
+    "isi": "Anda telah mempunyai pesan dari admin",
+    "waktu": "05\/14\/2019",
+    "status_dibaca": "sudah",
+    "id_user": 2
+   },
+   {
+    "id_notifikasi": 4,
+    "isi": "Anda telah mempunyai pesan dari admin",
+    "waktu": "05\/15\/2019",
+    "status_dibaca": "belum",
+    "id_user": 3
+   },
+   {
+    "id_notifikasi": 5,
+    "isi": "Anda telah mengganti foto profil",
+    "waktu": "05\/12\/2019",
+    "status_dibaca": "sudah",
+    "id_user": 3
+   },
+   {
+    "id_notifikasi": 6,
+    "isi": "Ruang kelas pada jam 12.50-16.00 dipindahkan ke ruang LPJ 03 Lantai 7",
+    "waktu": "05\/14\/2019",
+    "status_dibaca": "belum",
+    "id_user": 2
+   },
+   {
+    "id_notifikasi": 7,
+    "isi": "Anda telah mempunyai pesan dari admin",
+    "waktu": "05\/14\/2019",
+    "status_dibaca": "belum",
+    "id_user": 2
+   },
+   {
+    "id_notifikasi": 8,
+    "isi": "Anda telah mengganti password",
+    "waktu": "05\/14\/2019",
+    "status_dibaca": "belum",
+    "id_user": 3
+   },
+   {
+    "id_notifikasi": 9,
+    "isi": "Anda mempunyai berita baru: 2 Dosen dikirim ke Jepang",
+    "waktu": "05\/14\/2019",
+    "status_dibaca": "belum",
+    "id_user": 2
+   },
+   {
+    "id_notifikasi": 10,
+    "isi": "Anda mendapatkan pesan dari Abdallah Darussalam Candra",
+    "waktu": "05\/14\/2019",
+    "status_dibaca": "sudah",
+    "id_user": 32
+   },
+   {
+    "id_notifikasi": 11,
+    "isi": "Abdallah Darussalam Candra telah mengomentari berita 2 Dosen dikirim ke Jepang",
+    "waktu": "05\/14\/2019",
+    "status_dibaca": "sudah",
+    "id_user": 32
+   },
+   {
+    "id_notifikasi": 12,
+    "isi": "Galang Yudha Pratama telah mengajukan kompensasi kepada Anda",
+    "waktu": "05\/14\/2019",
+    "status_dibaca": "sudah",
+    "id_user": 31
+   },
+   {
+    "id_notifikasi": 13,
+    "isi": "Anda telah mengkonfirmasi kompensasi dari Galang Yudha Pratama",
+    "waktu": "05\/14\/2019",
+    "status_dibaca": "belum",
+    "id_user": 31
+   },
+   {
+    "id_notifikasi": 14,
+    "isi": "Anda telah mengganti foto profil",
+    "waktu": "05\/14\/2019",
+    "status_dibaca": "sudah",
+    "id_user": 31
+   },
+   {
+    "id_notifikasi": 15,
+    "isi": "Anda telah memesan ruangan LPJ 03",
+    "waktu": "05\/14\/2019",
+    "status_dibaca": "belum",
+    "id_user": 31
+   }
+  ],
+  "tabel_pekerjaan_kompen":[
+   {
+    "id_pekerjaan_kompen": 1,
+    "id_dosen": 8,
+    "nama": "Menata mouse dan keyboard di lab",
+    "kuota": 5,
+    "id_semester": 7,
+    "status_kompen": "1"
+   },
+   {
+    "id_pekerjaan_kompen": 2,
+    "id_dosen": 8,
+    "nama": "Membeli kertas A4 1 pack",
+    "kuota": 5,
+    "id_semester": 7,
+    "status_kompen": "1"
+   },
+   {
+    "id_pekerjaan_kompen": 3,
+    "id_dosen": 8,
+    "nama": "Membeli DDR 2 buah",
+    "kuota": 5,
+    "id_semester": 7,
+    "status_kompen": "1"
+   },
+   {
+    "id_pekerjaan_kompen": 4,
+    "id_dosen": 8,
+    "nama": "Menata absensi jurusan",
+    "kuota": 5,
+    "id_semester": 7,
+    "status_kompen": "1"
+   },
+   {
+    "id_pekerjaan_kompen": 5,
+    "id_dosen": 8,
+    "nama": "Menstampel kertas Portofolio untuk ujian",
+    "kuota": 5,
+    "id_semester": 7,
+    "status_kompen": "1"
+   }
+  ],
+  "tabel_prodi":[
+   {
+    "id_prodi": 3,
+    "nama": "Teknik Informatika",
+    "kode": "TI"
+   },
+   {
+    "id_prodi": 4,
+    "nama": "Manajemen Informatika",
+    "kode": "MI"
+   }
+  ],
+  "tabel_reply_komentar":[
+   {
+    "id_reply_komentar": 1,
+    "id_user": 16,
+    "isi": "Jangan lupa untuk minta tugasnya",
+    "id_komentar": 2,
+    "waktu": "04\/12\/2019"
+   },
+   {
+    "id_reply_komentar": 2,
+    "id_user": 13,
+    "isi": "Semangat juga ",
+    "id_komentar": 3,
+    "waktu": "04\/13\/2019"
+   },
+   {
+    "id_reply_komentar": 3,
+    "id_user": 18,
+    "isi": "Jangan lupa untuk minta tugasnya",
+    "id_komentar": 4,
+    "waktu": "04\/13\/2019"
+   }
+  ],
+  "tabel_riwayat_peminjam_kelas_ko":[
+   {
+    "id_riwayat_peminjam_kelas_kosong": 1,
+    "id_ruang": 1,
+    "peminjam": 32,
+    "hari": "selasa",
+    "waktu_mulai": "04\/05\/2023",
+    "waktu_selesai": "04\/05\/2023",
+    "waktu_pinjam": "05\/09\/2019",
+    "waktu_checkout": "05\/09\/2019"
+   }
+  ],
+  "tabel_ruang":[
+   {
+    "id_ruang": 1,
+    "kode": "KB02",
+    "lantai": 7
+   },
+   {
+    "id_ruang": 2,
+    "kode": "KR01",
+    "lantai": 5
+   },
+   {
+    "id_ruang": 3,
+    "kode": "LBD01",
+    "lantai": 6
+   },
+   {
+    "id_ruang": 4,
+    "kode": "LPJ03",
+    "lantai": 7
+   },
+   {
+    "id_ruang": 5,
+    "kode": "LSI1",
+    "lantai": 6
+   },
+   {
+    "id_ruang": 6,
+    "kode": "LID01",
+    "lantai": 7
+   }
+  ],
+  "tabel_semester":[
+   {
+    "id_semester": 4,
+    "semester": 1
+   },
+   {
+    "id_semester": 5,
+    "semester": 2
+   },
+   {
+    "id_semester": 6,
+    "semester": 3
+   },
+   {
+    "id_semester": 7,
+    "semester": 4
+   },
+   {
+    "id_semester": 8,
+    "semester": 5
+   },
+   {
+    "id_semester": 9,
+    "semester": 6
+   }
+  ],
+  "tabel_status_mahasiswa":[
+   {
+    "id_status_mahasiswa": 1,
+    "keterangan": "SP1"
+   },
+   {
+    "id_status_mahasiswa": 2,
+    "keterangan": "SP2"
+   },
+   {
+    "id_status_mahasiswa": 3,
+    "keterangan": "SP3"
+   },
+   {
+    "id_status_mahasiswa": 4,
+    "keterangan": "Cuti Akademik"
+   },
+   {
+    "id_status_mahasiswa": 5,
+    "keterangan": "Dropout "
+   },
+   {
+    "id_status_mahasiswa": 6,
+    "keterangan": "Kompen"
+   },
+   {
+    "id_status_mahasiswa": 7,
+    "keterangan": "Normal"
+   }
+  ],
+  "tabel_task":[
+   {
+    "id_task": 1,
+    "pekerjaan": "Membersihkan jendela",
+    "kuota": 2,
+    "id_dosen": 4,
+    "status": "1"
+   },
+   {
+    "id_task": 2,
+    "pekerjaan": "Menginputkan data",
+    "kuota": 3,
+    "id_dosen": 4,
+    "status": "1"
+   },
+   {
+    "id_task": 3,
+    "pekerjaan": "Mengangkat kursi",
+    "kuota": 5,
+    "id_dosen": 4,
+    "status": "1"
+   },
+   {
+    "id_task": 4,
+    "pekerjaan": "Menyiapkan ruangan",
+    "kuota": 10,
+    "id_dosen": 4,
+    "status": "1"
+   },
+   {
+    "id_task": 5,
+    "pekerjaan": "Mengambilkan makanan",
+    "kuota": 1,
+    "id_dosen": 4,
+    "status": "1"
+   },
+   {
+    "id_task": 6,
+    "pekerjaan": "fas",
+    "kuota": 22,
+    "id_dosen": 4,
+    "status": "0"
+   }
+  ],
+  "tabel_user":[
+   {
+    "id_user": 2,
+    "username": "1741720144",
+    "password": "1741720144",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 3,
+    "username": "1741720008",
+    "password": "1741720008",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 4,
+    "username": "1741720040",
+    "password": "1741720040",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 5,
+    "username": "1741720043",
+    "password": "1741720043",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 6,
+    "username": "1741720086",
+    "password": "1741720086",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 7,
+    "username": "1741720053",
+    "password": "1741720053",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 8,
+    "username": "1741720054",
+    "password": "1741720054",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 9,
+    "username": "1741720045",
+    "password": "1741720045",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 10,
+    "username": "1741720026",
+    "password": "1741720026",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 11,
+    "username": "1741720088",
+    "password": "1741720088",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 12,
+    "username": "1741720192",
+    "password": "1741720192",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 13,
+    "username": "1741720058",
+    "password": "1741720058",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 14,
+    "username": "1741720032",
+    "password": "1741720032",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 15,
+    "username": "1741720018",
+    "password": "1741720018",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 16,
+    "username": "1741720011",
+    "password": "1741720011",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 17,
+    "username": "1741720027",
+    "password": "1741720027",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 18,
+    "username": "1741720031",
+    "password": "1741720031",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 19,
+    "username": "1741720114",
+    "password": "1741720114",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 20,
+    "username": "1741720049",
+    "password": "1741720049",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 21,
+    "username": "1741720061",
+    "password": "1741720061",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 22,
+    "username": "1741720112",
+    "password": "1741720112",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 23,
+    "username": "1741720160",
+    "password": "1741720160",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 24,
+    "username": "1741720111",
+    "password": "1741720111",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 25,
+    "username": "1741720196",
+    "password": "1741720196",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 26,
+    "username": "1741720158",
+    "password": "1741720158",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 27,
+    "username": "1741720081",
+    "password": "1741720081",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 28,
+    "username": "1741720203",
+    "password": "1741720203",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 29,
+    "username": "1741720076",
+    "password": "1741720076",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 30,
+    "username": "1741720036",
+    "password": "1741720036",
+    "level": "mahasiswa"
+   },
+   {
+    "id_user": 31,
+    "username": "198603182012121001",
+    "password": "198603182012121001",
+    "level": "dosen"
+   },
+   {
+    "id_user": 32,
+    "username": "12345",
+    "password": "12345",
+    "level": "admin"
+   },
+   {
+    "id_user": 33,
+    "username": "196201051990031002",
+    "password": "196201051990031002",
+    "level": "dosen"
+   },
+   {
+    "id_user": 34,
+    "username": "198108102005012002",
+    "password": "198108102005012002",
+    "level": "dosen"
+   },
+   {
+    "id_user": 35,
+    "username": "197704242008121001",
+    "password": "197704242008121001",
+    "level": "dosen"
+   },
+   {
+    "id_user": 36,
+    "username": "198007162010121002",
+    "password": "198007162010121002",
+    "level": "dosen"
+   },
+   {
+    "id_user": 37,
+    "username": "197606252005012001",
+    "password": "197606252005012001",
+    "level": "dosen"
+   },
+   {
+    "id_user": 38,
+    "username": "198406102008121004",
+    "password": "198406102008121004",
+    "level": "dosen"
+   },
+   {
+    "id_user": 39,
+    "username": "197111101999031002",
+    "password": "197111101999031002",
+    "level": "dosen"
+   },
+   {
+    "id_user": 40,
+    "username": "198103182010122002",
+    "password": "198103182010122002",
+    "level": "dosen"
+   },
+   {
+    "id_user": 41,
+    "username": "198101052005011005",
+    "password": "198101052005011005",
+    "level": "dosen"
+   },
+   {
+    "id_user": 42,
+    "username": "197305102008011010",
+    "password": "197305102008011010",
+    "level": "dosen"
+   },
+   {
+    "id_user": 43,
+    "username": "197903132008121002",
+    "password": "197903132008121002",
+    "level": "dosen"
+   },
+   {
+    "id_user": 44,
+    "username": "198108092010121002",
+    "password": "198108092010121002",
+    "level": "dosen"
+   },
+   {
+    "id_user": 45,
+    "username": "123",
+    "password": "123",
+    "level": "admin"
+   }
+  ]
+  }
